@@ -1,1 +1,1 @@
-his program will assign a random number to the variable
+0x01. C - Variables, if, else, while
