@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- *  * Description: main - A program that prints all possible combinations digits
- *   * You can only use the putchar function
- *    * Return: 0
- *     */
+ * Description: main - A program that prints all possible combinations digits
+ * You can only use the putchar function
+* Return: 0
+ */
 
 int main(void)
 {
 	int num1 = 48;
 	int num2 = 44;
+
 	while (num1 <= 57)
 	{
 		putchar(num1);
