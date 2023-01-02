@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  * Description: main - set a random number to the variable n.
- *   * Return: 0
- *    */
+ * Description: main - set a random number to the variable n.
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
