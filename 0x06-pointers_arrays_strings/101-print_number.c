@@ -27,24 +27,24 @@ void print_number(int n)
 	for (x = 0; x < num; x++)
 	{
 
-	int pow = 1;
+		int pow = 1;
 
-	int y;
+		int y;
 
-	int d;
+		int d;
 
-	for (y = 0; y < num - x - 1; y++)
-	{
-	pow = pow * 10;
-	}
+		for (y = 0; y < num - x - 1; y++)
+		{
+		pow = pow * 10;
+		}
 
-	d = ((n / pow) % 10);
-	if (n < 0)
-	{
-	d = -d;
-	if (x == 0)
-	_putchar(45);
-	}
-	_putchar(48 + d);
+		d = ((n / pow) % 10);
+		if (n < 0)
+		{
+		d = -d;
+		if (x == 0)
+		_putchar(45);
+		}
+		_putchar(48 + d);
 	}
 }
