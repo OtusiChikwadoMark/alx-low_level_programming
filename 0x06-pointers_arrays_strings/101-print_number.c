@@ -14,14 +14,14 @@ void print_number(int n)
 	int x;
 
 	if (n < 0)
-	size = -n;
+		size = -n;
 	if (n == 0)
-	num = 1;
+		num = 1;
 
 	while (size >= 1)
 	{
-	size = size / 10;
-	num++;
+		size = size / 10;
+		num++;
 	}
 
 	for (x = 0; x < num; x++)
@@ -35,15 +35,15 @@ void print_number(int n)
 
 		for (y = 0; y < num - x - 1; y++)
 		{
-		pow = pow * 10;
+			pow = pow * 10;
 		}
 
 		d = ((n / pow) % 10);
 		if (n < 0)
 		{
-		d = -d;
-		if (x == 0)
-		_putchar(45);
+			d = -d;
+			if (x == 0)
+				_putchar(45);
 		}
 		_putchar(48 + d);
 	}
